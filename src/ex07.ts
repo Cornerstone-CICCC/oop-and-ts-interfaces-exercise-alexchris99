@@ -6,7 +6,7 @@ interface Logger {
   (input : number|string): void
 }
 
-const logMessage: Logger = (input: number | string ) => {
+const logMessage: Logger = (input: number | string ): void => {
   if (typeof input === "string") {
     console.log(`Message: ${input}`);
   } else {
