@@ -6,7 +6,7 @@ interface SumFunction {
     (a:number , b:number): number
 }
 
-const sum: SumFunction = (a: number, b:number) => a + b;
+const sum: SumFunction = (a: number, b:number):number => a + b;
 
 console.log(sum(10, 20)); 
 // Expected Output: 30
